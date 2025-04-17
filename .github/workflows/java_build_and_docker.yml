@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '1.8'
+          java-version: '8'
 
       - name: Make gradlew executable
         run: chmod +x gradlew
@@ -37,3 +37,4 @@ jobs:
           context: .
           push: true
           tags: tayylortran/your-java-app:latest
+
