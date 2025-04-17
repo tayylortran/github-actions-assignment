@@ -38,4 +38,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourdockerhubusername/your-java-app:latest
+        tags: tayylortran/your-java-app:latest
